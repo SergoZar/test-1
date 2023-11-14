@@ -1,10 +1,17 @@
 // ==UserScript==
-// @name         Remove fucking rounding
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  Прибирає срані заокруглення усіх елементів на сайтах | Removes the fucking rounding of all elements on sites.
-// @author       SergoZar
-// @match        *://*/*
+// @name         MastodonTranslate
+// @namespace    https://niu.moe/@tomo
+// @version      1.10.0
+// @description  Provides a translate toot option for Mastodon users via GoogleTranslate
+// @author       tomo@uchuu.io / https://niu.moe/@tomo
+// @match        *://*/web/*
+// @match        *://*/settings/preferences
+// @connect      translate.uchuu.io
+// @grant        GM.getValue
+// @grant        GM_getValue
+// @grant        GM_xmlhttpRequest
+// @grant        GM_xmlHttpRequest
+// @grant        GM.xmlHttpRequest
 // ==/UserScript==
 
 (function() {
